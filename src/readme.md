@@ -8,4 +8,4 @@ pada saat pertama kali membuka project ini ada beberapa hal yang harus lakukan d
     a. username : root
     b. password : 
     c. database : db_gamestore
-4. lalu extract file vendor.rar dan simpan di luar folder
+4. lalu buka terminal lalu ketik composer install
