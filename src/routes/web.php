@@ -28,6 +28,13 @@ $router->group(['middleware' => ['auth']],  function ($router){
     $router->get('category/{id}', 'CategoryController@show');
     $router->put('category/{id}', 'CategoryController@update');
     $router->delete('category/{id}', 'CategoryController@destroy');
+
+    // Category
+    $router->get('data', 'DataController@index');
+    $router->post('data', 'DataController@store');
+    $router->get('data/{id}', 'DataController@show');
+    $router->put('data/{id}', 'DataController@update');
+    $router->delete('data/{id}', 'DataController@destroy');
     
     // Checkout
     $router->get('checkout', 'CheckoutController@index');
